@@ -1,0 +1,280 @@
+.welcome{
+    position: relative;
+    max-width: 100%;
+    width :1200px;
+  /*  background-color: aqua;*/
+    display: flex;
+
+     }
+     .welcome img{
+        width: 250px;
+        position: relative;
+        bottom:-10px;
+        left: 40%;
+        border-radius: 50%;
+        border-top-right-radius: 0%;
+       /* border-bottom-left-radius: 0%;*/ }
+    
+     .welcome h3{
+        position: relative;
+        font-size: 35px;
+        left: 30%;
+        top: 70px;
+        color: blue;
+        
+    }
+    header h1{
+        text-transform:uppercase;
+        font-size: 1.5rem;
+        font-weight:bold; 
+        border-style:solid ; 
+        color:white;
+        background-color:blue;
+        display: inline-block;
+        padding:2px 15px;
+        border-radius: 32px;
+        margin-bottom:-3px;
+        margin-top:-2px;
+        right: 0px;
+
+    }
+    header{
+        position :fixed;
+        background-color:blue;
+        padding:10px;
+        width:100%;
+        z-index: 5;
+        text-align: center;
+        margin-top:-10px;
+        border-style: solid;
+        border-radius:20px;
+        border-color: white;
+    }
+
+    nav{
+        position: sticky;
+        background-color:white;
+        top:49px;
+        margin:25px auto;
+        margin-right: -10px;
+        border-style: solid;
+        border-radius: 22px;
+        z-index: 5;
+
+      }
+      nav ul{
+        display:flex;
+        justify-content: space-evenly;
+        list-style-type:none;
+        padding:0px;    
+      }
+      nav ul li a{
+         text-decoration:none;
+        color:#0a0909;
+        text-transform: lowercase;
+        font-size:20px;
+      }
+ main{
+    width:100%;
+    margin:75px auto;
+    margin-bottom:-15px;
+
+ } 
+ 
+ section p{
+    font-size:1.4rem;
+    font-style:oblique;
+ }
+ body{
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+   /* background-color: aquamarine;*/
+   background-color: aquamarine;
+ }
+ .images{
+    display: flex;
+   /* justify-content: none;/*space-between;*/
+ }
+ .images LI{
+    list-style-type: none;
+ }
+ /*.image img{
+   
+ }*/
+ .image .image1{
+    position: relative;
+    width: 178.43%;
+    border-style: solid; 
+    right:10%;
+    border-radius:22px;
+
+
+ }
+ .image .image2{
+    position: relative;
+    width: 70.5%;
+    margin-left:30%;
+    border-style: solid; 
+    border-radius:22px ;
+ }
+ /*GESTION DE DES 2 IMAGES DE LA LA LIGNE 1*/
+ .sevices{
+    position: relative;
+   /* background-color: rgb(208, 122, 10);*/
+    border-style: solid;
+    border-radius: 20px;
+    margin-right: 42px;
+    margin: 60px;
+
+ }
+ 
+ .parte1{
+    display:flex;
+    position: relative;
+    left: 10%;
+ }
+  /*GESTION DE DES 2 IMAGES DE LA LA LIGNE 2*/
+
+ .parte2{
+    display:flex;
+    position: relative;
+    left: 10%;
+   
+ }
+ /*GESTION DE CHAQUE IMAGE ET LEUR TEXTE EN GRAS*/
+ .parte1 .services1 .Services-title{
+    display:flex;
+ } 
+ .parte1 .services2 .Services-title{
+    display:flex;
+ } 
+ /*GESTION DE CHAQUE IMAGE ET LEUR TEXTE EN GRAS*/
+
+ .parte2 .services1 .Services-title{
+    display:flex;
+    img{
+        width:30px ;
+    }
+    
+    
+ }
+ .parte2 .services2 .Services-title{
+    display:flex;
+    img{
+        width:30px ;
+    }
+    
+    
+ }
+ .parte1 .services1 .Services-title{
+    display:flex;
+    img{
+        width:30px ;
+    }
+    
+ }
+ .parte1 .services2 .Services-title{
+    display:flex;
+    img{
+        width:30px ;
+    }
+    
+ }
+ 
+.parte1 .services2{
+    position: relative;
+    left:21.5%;
+}  
+.parte1 .services1{
+    position: relative;
+    right:8%;
+}  
+   
+.parte2 .services2{
+    position: relative;
+    left:16%;
+}  
+.parte2 .services1{
+    position: relative;
+    right:8%;
+} 
+form{
+ border: solid 2px #ddd;
+ width:40%;
+ padding:15px;
+ background-color:rgba(10, 22, 255, 0.7);
+ padding-top: 0px;
+ 
+} 
+form input[type="text"], form input[type="email"], form textarea{
+   padding: 8px;
+   width :90%;
+   font-size: 1.2rem;
+   border:solid;
+   margin:6px -5px;
+   background-color:white;
+}
+form input[type="submit"]{
+   font-size :1.4rem; 
+   border: none;
+ background-color: blue;
+ padding: 10px 24px;
+ font-weight :bold;
+ border-radius: 2rem;
+ color: aliceblue;
+ margin: 0px 55px;
+ opacity: 0.5px;
+}
+div.form form{
+   position: relative;
+   bottom:450px;
+   left:480px;
+   border-radius: 22px;
+}
+.form img{
+   width:70%;
+}
+.sections{
+ position: relative;
+ top: 100px;
+ h2{
+   position: relative;
+   bottom:25px;
+ }
+ 
+}
+section h2{
+   color:white;
+   background-color: blue;
+   border-style: solid;
+   border-color: white;
+   display: inline;
+   padding: 5px;
+   border-radius:15px;
+}
+.section1{
+   position: relative;
+   top:0px;
+}
+   
+.section2{   position: relative;
+   
+   top:50px}
+   
+.section3{   position: relative;
+   
+   top:90px}
+   .form .Contacts .whatsap{
+      position: relative;
+      font-size :25px;
+      left:25%;
+      font-weight: bold;
+      img{
+         position: relative;
+         width: 70px;
+        top: 27px;
+        left:15px;
+      }
+   }
+   
+      
+    
